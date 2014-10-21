@@ -54,5 +54,16 @@ body {
 		}
 		background-color: pink;
 	}
-
+	.block-position-vertical-horizon {
+		position: relative;
+		height: 10em;
+		span {
+			margin: 0px;
+			position: absolute;
+			margin-right: -50%; //用来保证窗口变窄不换行
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
 }

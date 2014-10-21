@@ -63,3 +63,17 @@ body code {
     top: 50%;
     transform: translate(0, -50%);
 }
+
+.vertical-align .block-position-vertical-horizon {
+    position: relative;
+    height: 10em;
+}
+
+.vertical-align .block-position-vertical-horizon span {
+    margin: 0px;
+    position: absolute;
+    margin-right: -50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
