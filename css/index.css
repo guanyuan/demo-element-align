@@ -5,6 +5,7 @@ body {
 body > div {
     display: inline-block;
     width: 48%;
+    vertical-align: top;
 }
 
 body .demo {
@@ -16,64 +17,63 @@ body .demo .title {
     color: blue;
 }
 
-body code {
-    white-space: pre;
-}
-
-.horizon-align {
+.horizon-alignxxx {
     border-right: 1px solid black;
 }
 
-.horizon-align P {
+.horizon-alignxxx P {
     text-align: center;
 }
 
-.horizon-align h2 {
+.horizon-alignxxx h2 {
     text-align: center;
 }
 
-.horizon-align .block-text {
+.horizon-alignxxx .block-text {
     margin-left: auto;
     margin-right: auto;
     width: 6em;
 }
 
-.horizon-align .demo > img {
+.horizon-alignxxx .demo > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 20em;
 }
 
-.vertical-align .block-table-cell {
+.vertical-alignxxx .block-table-cell {
     height: 20em;
     display: table-cell;
     vertical-align: middle;
     background-color: pink;
 }
 
-.vertical-align .block-position {
+.vertical-alignxxx .block-position {
     position: relative;
     height: 10em;
     background-color: pink;
 }
 
-.vertical-align .block-position p {
+.vertical-alignxxx .block-position p {
     position: absolute;
     margin: 0px;
     top: 50%;
     transform: translate(0, -50%);
 }
 
-.vertical-align .block-position-vertical-horizon {
+.vertical-alignxxx .block-position-vertical-horizon {
+    background-color: pink;
     position: relative;
     height: 10em;
 }
 
-.vertical-align .block-position-vertical-horizon span {
+.vertical-alignxxx .block-position-vertical-horizon p {
     margin: 0px;
     position: absolute;
     margin-right: -50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /*相对于自己的宽高*/
 }

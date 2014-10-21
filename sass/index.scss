@@ -3,6 +3,7 @@ body {
     &> div {
     	display: inline-block;
         width: 48%;
+        vertical-align: top;
     }
     .demo {
         border-bottom: 1px solid black;
@@ -11,11 +12,8 @@ body {
         	color: blue;
         }
     }
-    code {
-    	white-space: pre;
-    }
 }
-.horizon-align {
+.horizon-alignxxx {
     border-right: 1px solid black;
     P {
         text-align: center
@@ -32,10 +30,11 @@ body {
     	display: block;
     	margin-left: auto;
     	margin-right: auto;
+    	width: 20em;
     }
 }
 
-.vertical-align {
+.vertical-alignxxx {
 	.block-table-cell {
 		height: 20em;
 		display: table-cell;
@@ -55,15 +54,16 @@ body {
 		background-color: pink;
 	}
 	.block-position-vertical-horizon {
+		background-color: pink;
 		position: relative;
 		height: 10em;
-		span {
+		p {
 			margin: 0px;
 			position: absolute;
 			margin-right: -50%; //用来保证窗口变窄不换行
 			top: 50%;
 			left: 50%;
-			transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%); /*相对于自己的宽高*/
 		}
 	}
 }
