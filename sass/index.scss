@@ -1,0 +1,33 @@
+body {
+    background-color: gainsboro;
+    &> div {
+        width: 50%;
+    }
+    .demo {
+        border-bottom: 1px solid black;
+        .title {
+        	margin-top: 20px;
+        	color: blue;
+        }
+    }
+}
+.horizon-align {
+    border-right: 1px solid black;
+    P {
+        text-align: center
+    }
+    h2 {
+        text-align: center
+    }
+    .block-text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 6em;
+    }
+    .demo > img {
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+}
+.vertical-align {}
