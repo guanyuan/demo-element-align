@@ -34,3 +34,25 @@ body {
     	margin-right: auto;
     }
 }
+
+.vertical-align {
+	.block-table-cell {
+		height: 20em;
+		display: table-cell;
+		vertical-align: middle;
+		background-color: pink;
+	}
+
+	.block-position {
+		position: relative;
+		height: 10em;
+		p {
+			position: absolute;
+			margin: 0px;
+			top: 50%;
+			transform: translate(0,-50%);
+		}
+		background-color: pink;
+	}
+
+}
