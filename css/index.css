@@ -3,7 +3,8 @@ body {
 }
 
 body > div {
-    width: 50%;
+    display: inline-block;
+    width: 48%;
 }
 
 body .demo {
@@ -13,6 +14,10 @@ body .demo {
 body .demo .title {
     margin-top: 20px;
     color: blue;
+}
+
+body code {
+    white-space: pre;
 }
 
 .horizon-align {
@@ -39,3 +44,22 @@ body .demo .title {
     margin-right: auto;
 }
 
+.vertical-align .block-table-cell {
+    height: 20em;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: pink;
+}
+
+.vertical-align .block-position {
+    position: relative;
+    height: 10em;
+    background-color: pink;
+}
+
+.vertical-align .block-position p {
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    transform: translate(0, -50%);
+}

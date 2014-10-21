@@ -1,7 +1,8 @@
 body {
     background-color: gainsboro;
     &> div {
-        width: 50%;
+    	display: inline-block;
+        width: 48%;
     }
     .demo {
         border-bottom: 1px solid black;
@@ -9,6 +10,9 @@ body {
         	margin-top: 20px;
         	color: blue;
         }
+    }
+    code {
+    	white-space: pre;
     }
 }
 .horizon-align {
@@ -30,4 +34,3 @@ body {
     	margin-right: auto;
     }
 }
-.vertical-align {}
